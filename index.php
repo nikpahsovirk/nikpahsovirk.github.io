@@ -1,88 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>VerstoProf</title>
-	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
-	<link rel="icon" href="img/favicon.png" type="image/x-icon">
-	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
-	<link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VerstoPROF</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
-	<header id="header" class="header">
-		<div class="container">
-			<div class="nav">
-				<img src="img/logo.svg" alt="Burning Man" class="logo">
-				<ul class="menu">
-					<li>
-						<a href="#">
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							About
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							Tickets
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							Contacts
-						</a>
-					</li>
-				</ul>
-				<a href="tel:+18938392364" class="tel">
-					+1 893 839-23-64
-				</a>
-			</div>
-			<div class="offer">
-				<p>Not tne event. The life</p>
-				<h1>
-					Burning MAN
-				</h1>
-				<a href="#" class="btn">Book the tickets</a>
-			</div>
-		</div>
-	</header>
-	<section id="about" class="about">
-		<div class="container">
-			<h2>About the event</h2>
-			<div class="description">
-				<div class="desc-left">
-					<h3>Rebuilding the society</h3>
-					<p>
-						Burning Man is a network of people inspired by the values reflected in the Ten Principles and united in the pursuit of a more creative and connected existence in the world. Throughout the year we work to build Black Rock City, home of the largest annual Burning Man gathering, and nurture the distinctive culture emerging from that experience. 
-					</p>
-				</div>
-				<div class="desc-right">
-					<h3>This drives us</h3>
-					<p>
-						Burning Man Project will bring experiences to people in grand, awe-inspiring and joyful ways that lift the human spirit, address social problems, and inspire a sense of culture, community, and civic engagement. Burning Man provides infrastructural tools and frameworks to support local communities in applying the Ten Principles through six interconnected program areas, including Arts, Civic Involvement, Culture, Education, Philosophical Center, and Social Enterprise.
-					</p>
-				</div>			
-			</div>
-			<div class="gallery">
-				<img src="img/img1.jpg" alt="Event photo 1">
-				<img src="img/img2.jpg" alt="Event photo 2">
-				<img src="img/img3.jpg" alt="Event photo 3">
-			</div>
-		</div>
-	</section>
-	<footer id="footer" class="footer">
-		<div class="container">
-			<div class="footer-text">
-				<p>
-					©1989-2020 burning man project
-				</p>
-				<p>
-					WAYUP & Андрей Гаврилов
-				</p>
-			</div>
-		</div>
-	</footer>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <img class="logo-nav" src="img/favicon.png" alt="favicon">
+        <h2 class="text-nav">VerstoPROF</h2>
+        <ul class="menu">
+          <li>
+            <a href="#">Войти</a>
+          </li>
+          <li>
+            <a href="#">Зарегистрироваться</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="hero-image">
+      <div class="hero-text">
+        <p align="left">Профориентационный сервис со списком подходящих ВУЗов. Профориентация основывается на результатах теста и ЕГЭ. Консультация со специалистом.</p>
+        <form action="quiz.php" target="_blank">
+          <button class="hero-button">Пройти тест</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p  class="text-footer">Versto 2021</p>
+    </div>
+  </footer>
+
 </body>
 </html>
+
+
+
+
+
